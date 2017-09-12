@@ -1,0 +1,38 @@
+{
+  "name": "@ublio/scan",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Ublio WPA",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "stencil build",
+    "dev": "sd concurrent \"stencil build --dev --watch\" \"stencil-dev-server\" ",
+    "serve": "stencil-dev-server",
+		"start": "npm run dev",
+		"deploy": "npm run build && bash deploy.sh",
+    "http-server": "http-server www/"
+  },
+  "dependencies": {
+    "@ionic/core": "0.0.2-10",
+    "@stencil/core": "0.0.5-17",
+    "@stencil/router": "0.0.9",
+    "barcode-reader": "github:jwellner/JOB",
+    "http-server": "^0.10.0"
+  },
+  "devDependencies": {
+    "@stencil/dev-server": "0.0.17",
+    "@stencil/utils": "latest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jwellner/ublio-scan"
+  },
+  "author": "Jeroen Wellner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jwellner/ublio-scan"
+  },
+  "homepage": "https://github.com/jwellner/ublio-scan"
+}
