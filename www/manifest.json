@@ -1,6 +1,6 @@
 {
-  "name": "Stencil Starter",
-  "short_name": "Stencil",
+  "name": "Ublio Scanner",
+  "short_name": "Ublio",
   "start_url": "/",
   "display": "standalone",
   "icons": [{
