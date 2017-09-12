@@ -1,7 +1,6 @@
 dist/
-www/build
-www/index.html
 www/*
+!www/.gitkeep
 
 *~
 *.sw[mnpcod]
