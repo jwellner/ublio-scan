@@ -3,7 +3,7 @@ export class BookService {
 	static API_SEARCH = 'https://www.bookmatch.nl/api/data/book';
 
 	static getAll() {
-		let data = localStorage.getItem('books');
+		let data = (typeof localStorage !== undefined) ? localStorage.getItem('books') : null;
 		let list = [];
 
 		if (data) {
@@ -23,7 +23,7 @@ export class BookService {
 	}
 
 	static __save(list) {
-		return localStorage.setItem('books', JSON.stringify(list));
+		return (typeof localStorage !== undefined) ? localStorage.setItem('books', JSON.stringify(list)) : false;
 	}
 
 	static uid() {
