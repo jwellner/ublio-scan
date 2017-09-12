@@ -1,2 +1,0 @@
-/*! Built with http://stenciljs.com */
-App.loadComponents("bkwppxbe",function(n,t,e,r,o){var u=function(){function n(){}return n.prototype.render=function(){return t(0,0)},n}(),i=function(){function n(){}return n.prototype.render=function(){return t(0,0)},n}(),A=function(){function n(){}return n.prototype.render=function(){return t(0,0)},n}();n["ION-AVATAR"]=u,n["ION-BADGE"]=i,n["ION-THUMBNAIL"]=A},["ION-AVATAR",0,{theme:"avatar"}],["ION-BADGE",0,{theme:"badge"}],["ION-THUMBNAIL",0,{theme:"thumbnail"}]);
