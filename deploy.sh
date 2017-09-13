@@ -1,4 +1,5 @@
 git commit -am "Saved local changes"
+cp CNAME www/
 git checkout -B gh-pages
 git add -f www
 git commit -am "Deployed website"
